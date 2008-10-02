@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/[if ${1:lte }IE${3: ${2:version}}]
+	$0</string>
+	<key>name</key>
+	<string>IE Conditional</string>
+	<key>scope</key>
+	<string>text.haml</string>
+	<key>tabTrigger</key>
+	<string>ie</string>
+	<key>uuid</key>
+	<string>C009FB53-7486-4875-9ECD-3E45ACA215C4</string>
+</dict>
+</plist>
